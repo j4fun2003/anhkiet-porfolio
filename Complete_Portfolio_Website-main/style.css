@@ -588,7 +588,12 @@ section{
   .main {
     background-image: url('Image/profilee-small.png'); /* đổi ảnh phù hợp kích thước nhỏ hơn */
     background-position: top center;
+        position: relative;
+    width: 100%;
+    height: 100vh;
   }
+
+  
     
     header{
         padding: 12px 20px;
@@ -608,7 +613,7 @@ section{
         background-color: white;
         top: 0;
         right: 0;
-        width: 380px;
+        width: 100vw;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -704,23 +709,24 @@ section{
         padding: 35px 40px;
       }
 }
-.main {
-  background-image: url('Image/profilee.png');
-}
 
 /* Màn hình nhỏ hơn 768px */
 @media (max-width: 768px) {
   .main {
     background-image: url('Image/profilee-small.png'); /* ảnh tối ưu cho di động */
-    background-position: center;
+    background-position: right;
+        width: 100%;
+    height: 100vh;
   }
 }
 
 /* Màn hình nhỏ hơn 480px */
 @media (max-width: 480px) {
   .main {
-    background-image: url('Image/profilee-smallerr.png'); /* ảnh tối ưu cho di động */
-    background-position: center;
+    background-image: url('Image/profilee-small.png'); /* ảnh tối ưu cho di động */
+    background-position: right;
+        width: 100%;
+    height: 100vh;
   }
 }
 
