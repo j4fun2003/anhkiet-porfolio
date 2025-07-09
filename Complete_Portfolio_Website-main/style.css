@@ -719,8 +719,8 @@ section{
 /* Màn hình nhỏ hơn 480px */
 @media (max-width: 480px) {
   .main {
-    background-color: #1a1a1a; /* fallback nếu không dùng ảnh */
-    background-image: none;
+    background-image: url('Image/profilee-small.png'); /* ảnh tối ưu cho di động */
+    background-position: center;
   }
 }
 
