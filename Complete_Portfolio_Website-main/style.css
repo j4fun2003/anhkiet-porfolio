@@ -719,7 +719,7 @@ section{
 /* Màn hình nhỏ hơn 480px */
 @media (max-width: 480px) {
   .main {
-    background-image: url('Image/profilee-small.png'); /* ảnh tối ưu cho di động */
+    background-image: url('Image/profilee-smaller.png'); /* ảnh tối ưu cho di động */
     background-position: center;
   }
 }
