@@ -1,279 +1,817 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AnhKietTran</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adam Portfolio-Procoder09</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-</head>
-<body>
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000">AnhKiet</a>
-        <div class="menu-btn"></div>
-        <div class="navigation">
-            <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Trang chủ</a>
-            <a href="#about"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Giới thiệu</a>
-            <a href="#skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Kĩ năng</a>
-            <a href="#services" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Vị trí công việc</a>
-            <a href="#work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Kinh nghiệm</a>
-            <a href="#contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Liên hệ</a>
-        </div>
+      <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000"
+        >AnhKiet</a
+      >
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a
+          href="#main"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          >Trang chủ</a
+        >
+        <a
+          href="#about"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+          >Giới thiệu</a
+        >
+        <a
+          href="#skills"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          >Kĩ năng</a
+        >
+        <a
+          href="#services"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+          >Vị trí công việc</a
+        >
+        <a
+          href="#work"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          >Kinh nghiệm</a
+        >
+          <a
+          href="#project"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          >Ấn phẩm</a
+        >
+        <a
+          href="#contact"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+          >Liên hệ</a
+        >
+      </div>
     </header>
 
     <section class="main" id="main">
-        <div class="content">
-            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Xin Chào, Tôi là <br><span>Trần Anh Kiệt</span></h2>
-            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
-                <h3>Digital Marketing</h3>
-                <h3>Content Creator</h3>
-            </div>
-            <a href="CV.pdf" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">Tải CV</a>
-            <div class="media-icons">
-                <a href="https://www.facebook.com/Trananhkiet2401" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/anhkiet_xyz/" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
-                <a href="https://zalo.me/0837862239" data-aos="fade-in" style="height: 30px;" data-aos-duration="1000" data-aos-delay="1400"><svg xmlns="http://www.w3.org/2000/svg" style="padding-top: 5px" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 40 40">
-<path fill="#8bb7f0" d="M33.492,37.511H6.509c-2.209,0-4-1.791-4-4V6.528c0-2.209,1.791-4,4-4h22.983c4.418,0,8,3.582,8,8 v22.983C37.492,35.721,35.701,37.511,33.492,37.511z"></path><path fill="#fff" d="M7.987,30.999c0,0,4.927-1.971,3.942-8.376l6.629,6.334C18.558,28.957,13.653,34.092,7.987,30.999z"></path><path fill="#fff" d="M30.807,2.694H11.019C8.506,5.972,7.01,10.07,7.01,14.519c0,10.749,8.714,19.462,19.462,19.462 c4.229,0,8.14-1.353,11.333-3.645V9.214c0-1.298,0.058-4.33-1.788-5.789C34.768,2.439,31.685,2.694,30.807,2.694z"></path><path fill="none" stroke="#4e7ab5" stroke-miterlimit="10" d="M33.492,37.511H6.509c-2.209,0-4-1.791-4-4V6.528 c0-2.209,1.791-4,4-4h26.983c2.209,0,4,1.791,4,4v26.983C37.492,35.721,35.701,37.511,33.492,37.511z"></path><path fill="#8bb7f0" d="M31.684,20.989c-1.827,0-3.315-1.488-3.315-3.315s1.488-3.315,3.315-3.315s3.315,1.488,3.315,3.315 S33.511,20.989,31.684,20.989z M31.684,15.684c-1.096,0-1.989,0.893-1.989,1.989c0,1.096,0.893,1.989,1.989,1.989 c1.096,0,1.989-0.893,1.989-1.989C33.673,16.577,32.78,15.684,31.684,15.684z"></path><path fill="#8bb7f0" d="M27.042,20.989h-0.884c-0.244,0-0.442-0.198-0.442-0.442v-7.515h1.326V20.989z"></path><path fill="#8bb7f0" d="M23.063,14.579v0.459c-0.556-0.421-1.24-0.68-1.989-0.68c-1.827,0-3.315,1.488-3.315,3.315 s1.488,3.315,3.315,3.315c0.749,0,1.433-0.259,1.989-0.68v0.238c0,0.244,0.198,0.442,0.442,0.442h0.884v-6.41H23.063z M21.074,19.663c-1.096,0-1.989-0.893-1.989-1.989c0-1.096,0.893-1.989,1.989-1.989c1.096,0,1.989,0.893,1.989,1.989 C23.063,18.77,22.17,19.663,21.074,19.663z"></path><path fill="#8bb7f0" d="M17.98,13.032h-7.073v1.326h4.704l-4.925,5.747h0.023c-0.144,0.187-0.244,0.409-0.244,0.663v0.221 h6.631c0.244,0,0.442-0.198,0.442-0.442v-0.884h-4.704l4.925-5.747h-0.023c0.144-0.187,0.244-0.409,0.244-0.663V13.032z"></path>
-</svg></a>
-            </div>
+      <div class="content">
+        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
+          Xin Chào, Tôi là <br /><span>Trần Anh Kiệt</span>
+        </h2>
+        <div
+          class="animated-text"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="900"
+        >
+          <h3>Digital Marketing</h3>
+          <h3>Content Creator</h3>
         </div>
+        <a
+          href="#"
+          class="btn"
+          data-aos="zoom-out"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          >Tải CV</a
+        >
+        <div class="media-icons">
+          <a
+            href="https://www.facebook.com/Trananhkiet2401"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/anhkiet_xyz/"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="1300"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://zalo.me/0837862239"
+            data-aos="fade-in"
+            style="height: 30px"
+            data-aos-duration="1000"
+            data-aos-delay="1400"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              style="padding-top: 5px"
+              x="0px"
+              y="0px"
+              width="30px"
+              height="30px"
+              viewBox="0 0 40 40"
+            >
+              <path
+                fill="#8bb7f0"
+                d="M33.492,37.511H6.509c-2.209,0-4-1.791-4-4V6.528c0-2.209,1.791-4,4-4h22.983c4.418,0,8,3.582,8,8 v22.983C37.492,35.721,35.701,37.511,33.492,37.511z"
+              ></path>
+              <path
+                fill="#fff"
+                d="M7.987,30.999c0,0,4.927-1.971,3.942-8.376l6.629,6.334C18.558,28.957,13.653,34.092,7.987,30.999z"
+              ></path>
+              <path
+                fill="#fff"
+                d="M30.807,2.694H11.019C8.506,5.972,7.01,10.07,7.01,14.519c0,10.749,8.714,19.462,19.462,19.462 c4.229,0,8.14-1.353,11.333-3.645V9.214c0-1.298,0.058-4.33-1.788-5.789C34.768,2.439,31.685,2.694,30.807,2.694z"
+              ></path>
+              <path
+                fill="none"
+                stroke="#4e7ab5"
+                stroke-miterlimit="10"
+                d="M33.492,37.511H6.509c-2.209,0-4-1.791-4-4V6.528 c0-2.209,1.791-4,4-4h26.983c2.209,0,4,1.791,4,4v26.983C37.492,35.721,35.701,37.511,33.492,37.511z"
+              ></path>
+              <path
+                fill="#8bb7f0"
+                d="M31.684,20.989c-1.827,0-3.315-1.488-3.315-3.315s1.488-3.315,3.315-3.315s3.315,1.488,3.315,3.315 S33.511,20.989,31.684,20.989z M31.684,15.684c-1.096,0-1.989,0.893-1.989,1.989c0,1.096,0.893,1.989,1.989,1.989 c1.096,0,1.989-0.893,1.989-1.989C33.673,16.577,32.78,15.684,31.684,15.684z"
+              ></path>
+              <path
+                fill="#8bb7f0"
+                d="M27.042,20.989h-0.884c-0.244,0-0.442-0.198-0.442-0.442v-7.515h1.326V20.989z"
+              ></path>
+              <path
+                fill="#8bb7f0"
+                d="M23.063,14.579v0.459c-0.556-0.421-1.24-0.68-1.989-0.68c-1.827,0-3.315,1.488-3.315,3.315 s1.488,3.315,3.315,3.315c0.749,0,1.433-0.259,1.989-0.68v0.238c0,0.244,0.198,0.442,0.442,0.442h0.884v-6.41H23.063z M21.074,19.663c-1.096,0-1.989-0.893-1.989-1.989c0-1.096,0.893-1.989,1.989-1.989c1.096,0,1.989,0.893,1.989,1.989 C23.063,18.77,22.17,19.663,21.074,19.663z"
+              ></path>
+              <path
+                fill="#8bb7f0"
+                d="M17.98,13.032h-7.073v1.326h4.704l-4.925,5.747h0.023c-0.144,0.187-0.244,0.409-0.244,0.663v0.221 h6.631c0.244,0,0.442-0.198,0.442-0.442v-0.884h-4.704l4.925-5.747h-0.023c0.144-0.187,0.244-0.409,0.244-0.663V13.032z"
+              ></path></svg
+          ></a>
+        </div>
+      </div>
     </section>
 
-<!--  About Section -->
+    <!--  About Section -->
 
     <section class="about" id="about">
-        <div class="title reveal">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Giới thiệu</h2>
+      <div class="title reveal">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          Giới thiệu
+        </h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div
+            class="img-card"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-delay="200"
+          >
+            <img src="Image/img1.jpg" alt="" />
+          </div>
         </div>
-        <div class="content">
-            <div class="column col-left reveal">
-                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
-                    <img src="Image/img1.jpg" alt="">
-                </div>
-            </div>
-            <div class="column col-right reveal">
-                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Xin chào, tôi là Trần Anh Kiệt</h2>
-                <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">Là sinh viên chuyên ngành Digital Marketing
-Tôi có khả năng xây dựng kế hoạch và  sáng tạo nội dung cho nền tảng mạng xã hội. 
-Mục tiêu trong 1 năm tới, trở thành 1 Marketer chuyên nghiệp, góp phần sáng tạo và thúc đẩy các chiện dịch của công ty hiệu quả hơn. Phát triển chuyên môn trong việc sử dụng công cụ đo lường hiệu quả nội dung</p>
-                <a href="#" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">Xem thêm</a>
-            </div>
+        <div class="column col-right reveal">
+          <h2
+            class="content-title"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            Xin chào, tôi là Trần Anh Kiệt
+          </h2>
+          <p
+            class="paragraph-text"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            Tốt nghiệp chuyên ngành Digital Marketing, tôi có khả năng xây dựng
+            chiến lược và sáng tạo nội dung phù hợp với từng nền tảng mạng xã
+            hội như Facebook, Instagram, TikTok, YouTube. Hiểu và thực hiện được
+            các công việc như lập kế hoạch truyền thông, nghiên cứu thị trường,
+            phân tích insight khách hàng và tối ưu nội dung nhằm tăng mức độ
+            tương tác và chuyển đổi. </p>
+        <p  class="paragraph-text"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-delay="400">Bên cạnh đó, tôi có kiến thức về SEO, thực
+            hiện các chiến dịch quảng cáo(Facebook Ads, Google Ads), Email
+            Marketing, và sử dụng các công cụ đo lường – phân tích hiệu quả
+            chiến dịch như Google Analytics, Meta Business Suite, và các nền
+            tảng social listening.</p>
+    <p  class="paragraph-text"
+            data-aos="flip-up"
+            data-aos-duration="1000"
+            data-aos-delay="400">
+    Mục tiêu trong 1 năm tới là hoàn thiện các kỹ năng chuyên môn như triển khai và quản lý các chiến dịch marketing tích hợp (IMC) từ khâu lên ý tưởng, sản xuất nội dung, đến phân tích hiệu quả và tối ưu liên tục. Tôi sẽ không ngừng trau dồi kỹ năng sáng tạo, cập nhật xu hướng mới và ứng dụng các công nghệ, công cụ digital marketing tiên tiến để góp phần thúc đẩy hiệu quả kinh doanh và xây dựng thương hiệu bền vững cho doanh nghiệp
+          </p>
+          <a
+            href="#"
+            class="btn"
+            data-aos="zoom-out-left"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+            >Xem thêm</a
+          >
         </div>
+      </div>
     </section>
 
-<!-- Skill Section -->
+    <!-- Skill Section -->
 
     <section class="skills" id="skills">
-        <div class="title">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Kĩ năng</h2>
+      <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          Kĩ năng
+        </h2>
+      </div>
+      <div class="content">
+        <div class="column col-left">
+          <h2
+            class="content-title"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            Kĩ năng và kinh nghiệm
+          </h2>
+          <div
+            class="paragraph-text"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            Tôi có khả năng vững trong lĩnh vực Digital Marketing, bao gồm SEO
+            cho website, tối ưu hóa công cụ tìm kiếm, và xây dựng, phát triển
+            website. Tôi cũng thành thạo trong việc quảng cáo trên Facebook Ads
+            để tối ưu hiệu quả chiến dịch. Bên cạnh đó, tôi có kinh nghiệm thiết
+            kế đồ họa với các công cụ như Photoshop, Illustrator và Canva, giúp
+            tạo ra các sản phẩm hình ảnh bắt mắt. Ngoài ra, tôi có khả năng phân
+            tích dữ liệu qua các công cụ như Google Analytics, Google Search
+            Console và Facebook Insights để đánh giá và tối ưu các chiến dịch
+            marketing.
+          </div>
+          <a
+            href="#"
+            class="btn"
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            >See more</a
+          >
         </div>
-        <div class="content">
-            <div class="column col-left">
-                <h2 class="content-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Kĩ năng và kinh nghiệm</h2>
-                <div class="paragraph-text" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300">Tôi có khả năng vững trong lĩnh vực Digital Marketing, bao gồm SEO cho website, tối ưu hóa công cụ tìm kiếm, và xây dựng, phát triển website. Tôi cũng thành thạo trong việc quảng cáo trên Facebook Ads để tối ưu hiệu quả chiến dịch. Bên cạnh đó, tôi có kinh nghiệm thiết kế đồ họa với các công cụ như Photoshop, Illustrator và Canva, giúp tạo ra các sản phẩm hình ảnh bắt mắt. Ngoài ra, tôi có khả năng phân tích dữ liệu qua các công cụ như Google Analytics, Google Search Console và Facebook Insights để đánh giá và tối ưu các chiến dịch marketing.</div>
-                <a href="#" class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="400">See more</a>
+        <div class="column col-right">
+          <div class="bar">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="100"
+            >
+              <span>Lên kế hoạch và ý tưởng marketing</span>
+              <span>95%</span>
             </div>
-            <div class="column col-right">
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
-                        <span>Lên kế hoạch và ý tưởng marketing</span>
-                        <span>95%</span>
-                    </div>
-                    <div class="line html" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="140"></div>
-                </div>
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
-                        <span>Sản xuất nội dung Social Media</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="line css" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="240"></div>
-                </div>
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
-                        <span>GA4, Meta Business Suite</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="line javascript" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="500"></div>
-                </div>
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
-                        <span>Adobe, Capcut, Canva</span>
-                        <span>60%</span>
-                    </div>
-                    <div class="line python" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="540"></div>
-                </div>
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
-                        <span>Google, Facebook Ads</span>
-                        <span>65%</span>
-                    </div>
-                    <div class="line php" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="540"></div>
-                </div>
+            <div
+              class="line html"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="140"
+            ></div>
+          </div>
+          <div class="bar">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <span>Sản xuất nội dung Social Media</span>
+              <span>90%</span>
             </div>
+            <div
+              class="line css"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="240"
+            ></div>
+          </div>
+          <div class="bar">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            >
+              <span>GA4, Meta Business Suite</span>
+              <span>80%</span>
+            </div>
+            <div
+              class="line javascript"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            ></div>
+          </div>
+          <div class="bar">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <span>Adobe, Capcut, Canva</span>
+              <span>85%</span>
+            </div>
+            <div
+              class="line python"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="540"
+            ></div>
+          </div>
+          <div class="bar">
+            <div
+              class="info"
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
+              <span>Google, Facebook Ads</span>
+              <span>65%</span>
+            </div>
+            <div
+              class="line php"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="540"
+            ></div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Services Section -->
 
     <section class="services" id="services">
-        <div class="title">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Vị trí công việc</h2>
-            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Là một Digital Marketer với nền tảng vững chắc trong việc phát triển chiến lược Digital Marketing toàn diện, tôi đã tích lũy kinh nghiệm và kỹ năng qua các vị trí chuyên môn như Social Media Marketing, Content Marketing và Digital Marketing Executive. Mỗi vai trò mà tôi đảm nhận đều hướng tới việc tối ưu hóa sự hiện diện trực tuyến của doanh nghiệp, gia tăng khả năng tiếp cận khách hàng và thúc đẩy chuyển đổi.</p>
+      <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          Vị trí công việc
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          Là một Digital Marketer với nền tảng vững chắc trong việc phát triển
+          chiến lược Digital Marketing toàn diện, tôi đã tích lũy kinh nghiệm và
+          kỹ năng qua các vị trí chuyên môn như Social Media Marketing, Content
+          Marketing và Digital Marketing Executive. Mỗi vai trò mà tôi đảm nhận
+          đều hướng tới việc tối ưu hóa sự hiện diện trực tuyến của doanh
+          nghiệp, gia tăng khả năng tiếp cận khách hàng và thúc đẩy chuyển đổi.
+        </p>
+      </div>
+      <div class="content">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="info">
+            <h3>Social Media Marketing</h3>
+            <p>
+              Quản lý chiến dịch quảng cáo trên các nền tảng như
+              Facebook,Tiktok, Instagram, gia tăng nhận thức thương hiệu và
+              tương tác với khách hàng mục tiêu.
+            </p>
+          </div>
         </div>
-        <div class="content">
-            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
-                <div class="service-icon">
-                    <i class="fas fa-palette"></i>
-                </div>
-                <div class="info">
-                    <h3>Social Media Marketing</h3>
-                    <p>Quản lý chiến dịch quảng cáo trên các nền tảng như Facebook,Tiktok, Instagram, gia tăng nhận thức thương hiệu và tương tác với khách hàng mục tiêu. </p>
-                </div>
-            </div>
-            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <div class="service-icon">
-                    <i class="fas fa-object-group"></i>
-                </div>
-                <div class="info">
-                    <h3>Content Marketing</h3>
-                    <p>Sáng tạo nội dung giá trị, xây dựng mối quan hệ bền vững giữa thương hiệu và khách hàng thông qua các bài viết và nội dung truyền thông xã hội. </p>
-                </div>
-            </div>
-            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                <div class="service-icon">
-                    <i class="fas fa-file-code"></i>
-                </div>
-                <div class="info">
-                    <h3>Digital Marketing Executive</h3>
-                    <p>Phát triển chiến lược marketing tổng thể, từ SEO đến phân tích dữ liệu và tối ưu hóa chiến dịch quảng cáo. </p>
-                </div>
-            </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="service-icon">
+            <i class="fas fa-object-group"></i>
+          </div>
+          <div class="info">
+            <h3>Content Marketing</h3>
+            <p>
+              Sáng tạo nội dung giá trị, xây dựng mối quan hệ bền vững giữa
+              thương hiệu và khách hàng thông qua các bài viết và nội dung
+              truyền thông xã hội.
+            </p>
+          </div>
         </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="service-icon">
+            <i class="fas fa-file-code"></i>
+          </div>
+          <div class="info">
+            <h3>Digital Marketing Executive</h3>
+            <p>
+              Phát triển chiến lược marketing tổng thể, từ SEO đến phân tích dữ
+              liệu và tối ưu hóa chiến dịch quảng cáo.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-<!-- Work Section -->
+    <!-- Work Section -->
     <section class="work" id="work">
-        <div class="title">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Kinh nghiệm làm việc</h2>
+      <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          Kinh nghiệm làm việc
+        </h2>
+      </div>
+      <div class="content">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="card-img">
+            <a
+              href="https://www.tiktok.com/@zenshopfashion?_t=ZS-8xsTccu3kB6&_r=1"
+            >
+              <img src="Image/work1.jpg" alt="" />
+            </a>
+          </div>
         </div>
-        <div class="content">
-            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                <div class="card-img">
-                    <a href="https://www.tiktok.com/@zenshopfashion?_t=ZS-8xsTccu3kB6&_r=1">
-                    <img src="Image/work1.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <div class="card-img">
-                    <a href="https://www.tiktok.com/@nhatbantour.nbt">
-                    <img src="Image/work2.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <div class="card-img">
-                     <a href="https://www.tiktok.com/@zenshopfashion?_t=ZS-8xsTccu3kB6&_r=1">
-                    <img src="Image/work3.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
-                <div class="card-img">
-                    <a href="https://www.tiktok.com/@alotv.homes">
-                    <img src="Image/work4.jpg" alt="">
-                    </a>
-                </div>
-            </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="card-img">
+            <a href="https://www.tiktok.com/@nhatbantour.nbt">
+              <img src="Image/work2.jpg" alt="" />
+            </a>
+          </div>
         </div>
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <div class="card-img">
+            <a
+              href="https://www.tiktok.com/@zenshopfashion?_t=ZS-8xsTccu3kB6&_r=1"
+            >
+              <img src="Image/work3.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <div class="card-img">
+            <a href="https://www.tiktok.com/@alotv.homes">
+              <img src="Image/work4.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="project">
+      <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">
+          Ấn phẩm
+        </h2>
+      </div>
+      <div class="content">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <blockquote
+            class="tiktok-embed"
+            cite="https://www.tiktok.com/@alotv.homes/video/7537877176159456530"
+            data-video-id="7537877176159456530"
+            style="max-width: 605px; min-width: 325px"
+          >
+            <section>
+              <a
+                target="_blank"
+                title="@alotv.homes"
+                href="https://www.tiktok.com/@alotv.homes?refer=embed"
+                >@alotv.homes</a
+              >
+              Sinh viên có thể ở &#34;Chung Cư&#34; hay không? Cùng AlOTV Home
+              giải đáp thắc mắc nhé😉
+              <a
+                title="xuhuong"
+                target="_blank"
+                href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                >#xuhuong</a
+              >
+              <a
+                title="chungcu"
+                target="_blank"
+                href="https://www.tiktok.com/tag/chungcu?refer=embed"
+                >#chungcu</a
+              >
+              <a
+                title="sinhvien"
+                target="_blank"
+                href="https://www.tiktok.com/tag/sinhvien?refer=embed"
+                >#sinhvien</a
+              >
+              <a
+                title="phongtro"
+                target="_blank"
+                href="https://www.tiktok.com/tag/phongtro?refer=embed"
+                >#phongtro</a
+              >
+              <a
+                title="alotvhomes"
+                target="_blank"
+                href="https://www.tiktok.com/tag/alotvhomes?refer=embed"
+                >#alotvhomes</a
+              >
+              <a
+                target="_blank"
+                title="♬ nhạc nền  - Alotv Homes"
+                href="https://www.tiktok.com/music/nhạc-nền-Alotv-Homes-7537877216424676097?refer=embed"
+                >♬ nhạc nền - Alotv Homes</a
+              >
+            </section>
+          </blockquote>
+          <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <blockquote
+            class="tiktok-embed"
+            cite="https://www.tiktok.com/@nhatbantour.nbt/video/7472337990543559944"
+            data-video-id="7472337990543559944"
+            style="max-width: 605px; min-width: 325px"
+          >
+            <section>
+              <a
+                target="_blank"
+                title="@nhatbantour.nbt"
+                href="https://www.tiktok.com/@nhatbantour.nbt?refer=embed"
+                >@nhatbantour.nbt</a
+              >
+              Mỗi ngày một fact P3: Một chiếc toilet nọ tại Nhật Bản
+              <a
+                title="moingaymotfact"
+                target="_blank"
+                href="https://www.tiktok.com/tag/moingaymotfact?refer=embed"
+                >#moingaymotfact</a
+              >
+              <a
+                title="hipopopapacafe"
+                target="_blank"
+                href="https://www.tiktok.com/tag/hipopopapacafe?refer=embed"
+                >#hipopopapacafe</a
+              >
+              <a
+                title="akashi"
+                target="_blank"
+                href="https://www.tiktok.com/tag/akashi?refer=embed"
+                >#akashi</a
+              >
+              <a
+                title="matsue"
+                target="_blank"
+                href="https://www.tiktok.com/tag/matsue?refer=embed"
+                >#matsue</a
+              >
+              <a
+                title="mordern"
+                target="_blank"
+                href="https://www.tiktok.com/tag/mordern?refer=embed"
+                >#mordern</a
+              >
+              <a
+                title="vintage"
+                target="_blank"
+                href="https://www.tiktok.com/tag/vintage?refer=embed"
+                >#vintage</a
+              >
+              <a
+                title="nhatbantour"
+                target="_blank"
+                href="https://www.tiktok.com/tag/nhatbantour?refer=embed"
+                >#nhatbantour</a
+              >
+              <a
+                title="japan"
+                target="_blank"
+                href="https://www.tiktok.com/tag/japan?refer=embed"
+                >#japan</a
+              >
+              <a
+                title="nhatban"
+                target="_blank"
+                href="https://www.tiktok.com/tag/nhatban?refer=embed"
+                >#nhatban</a
+              >
+              <a
+                title="dulich"
+                target="_blank"
+                href="https://www.tiktok.com/tag/dulich?refer=embed"
+                >#dulich</a
+              >
+              <a
+                title="travel"
+                target="_blank"
+                href="https://www.tiktok.com/tag/travel?refer=embed"
+                >#travel</a
+              >
+              <a
+                title="toilet"
+                target="_blank"
+                href="https://www.tiktok.com/tag/toilet?refer=embed"
+                >#toilet</a
+              >
+              <a
+                target="_blank"
+                title="♬ оригинальный звук - ."
+                href="https://www.tiktok.com/music/оригинальный-звук-7290790746045631234?refer=embed"
+                >♬ оригинальный звук - .</a
+              >
+            </section>
+          </blockquote>
+          <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        <div
+          class="card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <blockquote
+            class="tiktok-embed"
+            cite="https://www.tiktok.com/@alotv.homes/video/7532073870644350215"
+            data-video-id="7532073870644350215"
+            style="max-width: 605px; min-width: 325px"
+          >
+            <section>
+              <a
+                target="_blank"
+                title="@alotv.homes"
+                href="https://www.tiktok.com/@alotv.homes?refer=embed"
+                >@alotv.homes</a
+              >
+              Cấm xe xăng rồi bạn mua nhà chưa??
+              <a
+                title="xuhuong"
+                target="_blank"
+                href="https://www.tiktok.com/tag/xuhuong?refer=embed"
+                >#xuhuong</a
+              >
+              <a
+                title="funny"
+                target="_blank"
+                href="https://www.tiktok.com/tag/funny?refer=embed"
+                >#funny</a
+              >
+              <a
+                title="xexang"
+                target="_blank"
+                href="https://www.tiktok.com/tag/xexang?refer=embed"
+                >#xexang</a
+              >
+              <a
+                title="pov"
+                target="_blank"
+                href="https://www.tiktok.com/tag/pov?refer=embed"
+                >#pov</a
+              >
+              <a
+                title="genzdilam"
+                target="_blank"
+                href="https://www.tiktok.com/tag/genzdilam?refer=embed"
+                >#genzdilam</a
+              >
+              <a
+                title="alotvhomes"
+                target="_blank"
+                href="https://www.tiktok.com/tag/alotvhomes?refer=embed"
+                >#alotvhomes</a
+              >
+              <a
+                target="_blank"
+                title="♬ nhạc nền  - Alotv Homes"
+                href="https://www.tiktok.com/music/nhạc-nền-Alotv-Homes-7532073909147994897?refer=embed"
+                >♬ nhạc nền - Alotv Homes</a
+              >
+            </section>
+          </blockquote>
+          <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+      </div>
     </section>
     <section class="contact" id="contact">
-        <div class="title reveal">
-          <h2 class="section-title">Liên hệ</h2>
-        </div>
-        <div class="content">
-          <div class="row">
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="info">
-                <h3>Địa chỉ</h3>
-                <span>Quận 12, TP Hồ Chí Minh</span>
-              </div>
+      <div class="title reveal">
+        <h2 class="section-title">Liên hệ</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
             </div>
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div class="info">
-                <h3>Số điện thoại</h3>
-                <span>0837 862 239</span>
-              </div>
+            <div class="info">
+              <h3>Địa chỉ</h3>
+              <span>Quận 12, TP Hồ Chí Minh</span>
             </div>
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="info">
-                <h3>Email</h3>
-                <span>trananhkiet5521@gmail.com</span>
-              </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Số điện thoại</h3>
+              <span>0837 862 239</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email</h3>
+              <span>trananhkiet5521@gmail.com</span>
             </div>
           </div>
         </div>
-      </section>
-  
-      <footer class="footer">
-        <span class="footer-title">Trần Anh Kiệt</span>
-        <p>2025 Copyright<a href="#"> Liên hệ</a>.</p>
-      </footer>
+      </div>
+    </section>
 
+    <footer class="footer">
+      <span class="footer-title">Trần Anh Kiệt</span>
+      <p>2025 Copyright<a href="#"> Liên hệ</a>.</p>
+    </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({offset:0});
+      AOS.init({ offset: 0 });
     </script>
     <script>
+      window.addEventListener("scroll", function () {
+        scrollBtn.classList.toggle("active", window.scrollY > 500);
+      });
 
-        window.addEventListener("scroll", function(){
-    scrollBtn.classList.toggle("active", window.scrollY > 500);
-});
+      //javascript for scroll back to top on click scroll-to-top button
 
-//javascript for scroll back to top on click scroll-to-top button
+      // document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
+      //   document.body.scrollTop = 0;
+      //   document.documentElement.scrollTop = 0;
+      // });
 
-// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
-//   document.body.scrollTop = 0;
-//   document.documentElement.scrollTop = 0;
-// });
+      const menuBtn = document.querySelector(".menu-btn");
+      const navigation = document.querySelector(".navigation");
+      const navigationItems = document.querySelector(".navigation a");
 
-        const menuBtn = document.querySelector(".menu-btn");
-        const navigation = document.querySelector(".navigation");
-        const navigationItems = document.querySelector(".navigation a");
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+      });
 
-        menuBtn.addEventListener("click", () => {
-            menuBtn.classList.toggle("active");
-            navigation.classList.toggle("active");
-        })
+      // Navigation Effects
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
 
-        // Navigation Effects
-        window.addEventListener("scroll", function(){
-            const header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-
-        navigationItems.forEach((navigationItem) => {
-            navigationItem.addEventListener("click", () => {
-                menuBtn.classList.remove("active");
-                navigation.classList.remove("active")
-            })
-        })
-
-
-
+      navigationItems.forEach((navigationItem) => {
+        navigationItem.addEventListener("click", () => {
+          menuBtn.classList.remove("active");
+          navigation.classList.remove("active");
+        });
+      });
     </script>
-</body>
+  </body>
 </html>
