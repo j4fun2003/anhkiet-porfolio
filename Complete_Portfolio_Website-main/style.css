@@ -727,8 +727,7 @@ section{
 }
 
 @media (max-width: 480px) {
-  .main {
-    background-image: url('Image/profilee-smallerr.png'); /* ảnh tối ưu cho di động */
+  .main {/* ảnh tối ưu cho di động */
     background-position: right;
     width: 100vw;
     height: 100vh;
@@ -765,3 +764,4 @@ section{
   flex: 0 0 auto;
 
 }
+
