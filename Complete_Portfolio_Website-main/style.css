@@ -45,16 +45,21 @@ header .brand{
     text-decoration: none;
 }
 
-header .navigation{
-    position: relative;
+header .navigation {
+  position: relative;
+  display: flex; /* Đảm bảo menu hiển thị theo hàng ngang trên PC */
 }
 
-header .navigation a{
-    color: white;
-    font-size: 1em;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 30px;
+header .navigation a {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.menu-btn {
+  display: none; /* Ẩn nút menu trên PC */
 }
 
 header .navigation a:hover{
@@ -72,14 +77,15 @@ section{
 .main {
   position: relative;
   width: 100%;
-  min-height: 100vh; /* Sử dụng min-height thay vì height */
+  height: 100vh;
   display: flex;
   align-items: center;
   background-image: url('Image/profilee.png');
-  background-size: contain; /* Hoặc auto tùy thuộc vào nhu cầu */
+  background-size: cover; /* Hoặc contain nếu cần */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #000; /* Màu nền dự phòng để tránh khoảng trắng */
 }
 
 .main .content {
@@ -706,47 +712,91 @@ section{
         padding: 35px 40px;
       }
 }
+@media (max-width: 991px) {
+  header {
+    padding: 12px 20px;
+  }
 
-/* Màn hình nhỏ hơn 768px */
-@media (max-width: 1040px) {
+  header.sticky {
+    padding: 10px 20px;
+  }
+
+  header .navigation {
+    display: none;
+  }
+
+  .navigation.active {
+    z-index: 889;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    transition: 0.3s ease;
+  }
+
+  header .navigation a {
+    color: black;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+  }
+
+  .menu-btn {
+    display: block;
+    position: absolute;
+    background-image: url('Image/menu.png');
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .menu-btn.active {
+    z-index: 999;
+    background-image: url('Image/close.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    transition: 0.3s ease;
+    filter: invert(1);
+  }
+
   .main {
     background-image: url('Image/profilee-small.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center top;
-    width: 100vw;
-    min-height: 100vh;
+    background-color: #000;
   }
 }
 
 @media (max-width: 768px) {
   .main {
     background-image: url('Image/profilee-small.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center top;
-    width: 100vw;
-    min-height: 100vh;
-  }
-  .main .content h2 {
-    font-size: 1.2em;
-  }
-  .animated-text h3 {
-    font-size: 1.8em;
+    background-color: #000;
   }
 }
 
 @media (max-width: 480px) {
   .main {
     background-image: url('Image/profilee-smallerr.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center top;
-    width: 100vw;
-    min-height: 100vh;
-  }
-  .main .content h2 {
-    font-size: 1em;
-  }
-  .animated-text h3 {
-    font-size: 1.5em;
+    background-color: #000;
   }
 }
 .scrollToTop-btn{
@@ -779,6 +829,7 @@ section{
   flex: 0 0 auto;
 
 }
+
 
 
 
