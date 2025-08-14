@@ -727,7 +727,7 @@ section{
 @media (max-width: 480px) {
   .main {
     background-image: url('Image/profilee-smallerr.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center top;
     background-color: #000;
   }
